@@ -1,5 +1,6 @@
 FROM node:18 AS base
-CMD [ "bash" ]
+CMD ["bash"]
+
 
 # Build
 FROM base AS test-and-build
